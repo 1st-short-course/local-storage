@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">local-storage</string>
+
+    <string name="content">
+        On Android 6.0 (API level 23) and lower, other apps can read your internal files if you set the file mode to be world readable. However, the other app must know your app package name and file names. Other apps cannot browse your internal directories and do not have read or write access unless you explicitly set the files to be readable or writable. So as long as you use MODE_PRIVATE for your files on the internal storage, they are never accessible to other apps.
+    </string>
+</resources>
